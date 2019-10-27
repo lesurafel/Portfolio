@@ -83,3 +83,83 @@
   padding: 0;
   margin: 0;
 }
+
+/* --------- Containers -------------- */
+.container-fluid {
+  padding: 0;
+  top: 0;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* --------- Information ------------------ */
+.information {
+  padding-top: 200px;
+  width: 400px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 3px 3px #2c3e50;
+}
+
+@media (min-width: 768px) {
+  .information {
+    padding-top: 150px;
+    width: 600px;
+  }
+
+  .information h1, h2 {
+    font-size: 50px;
+  }
+}
+
+.full-name hr {
+  width: 600px;
+  height: 1px;
+}
+
+.link {
+  width: 200px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-element {
+  margin: 0 auto;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link a {
+  color: #fff;
+  padding: 0;
+}
+
+.project .description, .about {
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.project a {
+  color: black;
+}
